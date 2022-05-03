@@ -7,10 +7,10 @@
             <div class="navbar-wrap">
                 <nav class="nav">
                     <ul>
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
+                        <li>홈</li>
+                        <li>카테고리</li>
+                        <li>Live</li>
+                        <li>My</li>
                     </ul>
                 </nav>
             </div>
@@ -27,6 +27,8 @@ export default {
 </script>
 <style scoped>
 *, body, html { word-break: break-all; word-wrap: break-word; margin: 0; padding: 0; box-sizing: border-box; }
+li { list-style: none; }
+a { text-decoration:none; }
 
 .container {
     position: fixed; top: 0; left: 0;
@@ -45,7 +47,7 @@ export default {
     
 }
 .logo-wrap h1 {
-
+    color: #fff;
 }
 .navbar-wrap {
 
@@ -57,7 +59,7 @@ export default {
     display: flex;
 }
 .nav ul li {
-
+    color: #fff;
 }
 .search-input {
 
