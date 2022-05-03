@@ -1,4 +1,19 @@
 # search-movie
+Vue를 활용한 영화 검색 사이트 제작
+(Vue3.xx)
+## 기능명세
+```
+qwer
+```
+
+## 설계
+```
+qwer
+```
+## 문제 및 해결
+```
+qwer
+```
 
 ## Project setup
 ```
@@ -9,16 +24,3 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
