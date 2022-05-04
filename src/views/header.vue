@@ -5,12 +5,20 @@
                 <h1>logo</h1>
             </div>
             <div class="navbar-wrap">
-                <nav class="nav">
+                <nav class="gnb">
                     <ul>
-                        <li>홈</li>
-                        <li>카테고리</li>
-                        <li>Live</li>
-                        <li>My</li>
+                        <li>
+                            <router-link to="/">홈</router-link>
+                        </li>
+                        <li>
+                            <router-link to="/">카테고리</router-link>
+                        </li>
+                        <li>
+                            <router-link to="/">Live</router-link>
+                        </li>
+                        <li>
+                            <router-link to="/">My</router-link>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -31,20 +39,20 @@ li { list-style: none; }
 a { text-decoration:none; }
 
 .container {
-    position: fixed; top: 0; left: 0;
+    position: fixed; top: 0; left: -20px;
     z-index: 1750;
     width: 100%;
     min-width: 1240px;
     background-color: #1b1b1b;
 }
 .header-wrap {
-    display: flex; justify-content: space-around; align-items: center;
+    display: flex; justify-content: space-evenly; align-items: center;
     position: relative;
-    width: 1240px; height: 74px;
+    width: 1240px; height: 97px;
     margin: 0 auto;
 }
 .logo-wrap {
-    
+    position: relative; left: -80px;
 }
 .logo-wrap h1 {
     color: #fff;
@@ -52,20 +60,31 @@ a { text-decoration:none; }
 .navbar-wrap {
 
 }
-.nav {
-
+.gnb {
+    position: relative; left: -120px;
 }
-.nav ul {
-    display: flex;
+.gnb ul {
+    display: flex; align-items: center;
 }
-.nav ul li {
-    color: #fff;
+.gnb ul li {
+    margin: 0 20px; padding: 0 10px;
+    font-size: 20px;
+    line-height: 74px;
+}
+.gnb ul li a {
+    color: #a5a5a5;
 }
 .search-input {
 
 }
 .search-input input {
-
+    width: 164px; height: 40px;
+    background: url(../assets/images/dot.png) no-repeat 0;
+    font-size: 20px;
+    color: #a5a5a5;
+    border-radius: 0; border: none; border-bottom: 2px solid #2f2f2f;
+    padding-left: 40px;
+    outline: 0;
 }
 
 </style>
